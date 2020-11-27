@@ -3,8 +3,9 @@ This Repository allows to super fast download historical ohlcv data from binance
 The data is stored inside a hdf5 file and can be retrieved via the `hdf_to_df` function or you can convert the data into seperate  csv files 
 
 ### How to use?
-first edit parameters inside `main.py` to your likings 
-than simply run `python main.py`
+1. install reqiermetns `pip install -r requirements.txt` 
+2. edit parameters inside `main.py` to your likings 
+3. simply run `python main.py`
 
 ### Example use
 **first set parameteres**
